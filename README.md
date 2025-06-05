@@ -1,16 +1,71 @@
-# flutter_bluetooth_printer
+Great! I’ll draft a clear and informative README.md for your tspl_flutter project. If you have any project specifics, such as features, setup instructions, or usage examples, just let me know. Otherwise, I’ll create a general template for a Flutter Bluetooth printer app based on common practices.
 
-A new Flutter project.
+Here’s a suggested README.md:
+
+---
+
+# tspl_flutter
+
+A cross-platform Flutter application for connecting to and printing from Bluetooth printers, supporting TSPL (Thermal Printer Command Language) devices. This project is primarily written in Dart, with native integrations in C++, CMake, Ruby, Swift, and C for platform-specific functionalities.
+
+## Features
+
+- Discover and connect to Bluetooth printers
+- Send print commands using TSPL/ESC/POS
+- Cross-platform support (Android, iOS, and more)
+- Easy-to-use Flutter interface
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+### Prerequisites
 
-A few resources to get you started if this is your first Flutter project:
+- [Flutter SDK](https://flutter.dev/docs/get-started/install)
+- Compatible Bluetooth printer (TSPL/ESC/POS)
+- Device with Bluetooth capability
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+### Installation
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/tanongkiat/tspl_flutter.git
+   cd tspl_flutter
+   ```
+2. Install dependencies:
+   ```bash
+   flutter pub get
+   ```
+3. Connect your device and run:
+   ```bash
+   flutter run
+   ```
+
+### Usage
+
+1. Launch the app on your device.
+2. Scan for available Bluetooth printers.
+3. Select a printer and connect.
+4. Send text or image data to print using TSPL commands.
+
+## Project Structure
+
+- `lib/` — Flutter (Dart) code for UI and logic
+- `android/`, `ios/` — Native code and platform integration
+- `cpp/`, `cmake/` — Native modules for printer communication
+- `test/` — Unit and widget tests
+
+## Contributing
+
+Contributions are welcome! Please open issues or submit pull requests.
+
+## License
+
+This project is licensed under the MIT License. See [LICENSE](LICENSE) for details.
+
+## Resources
+
+- [Flutter Documentation](https://docs.flutter.dev/)
+- [TSPL Command Reference](https://www.tecton.com.tw/download/TSPL_MANUAL.pdf)
+
+---
+
+Let me know if you want to customize this further (e.g., add screenshots, API usage, or more detailed features)!
