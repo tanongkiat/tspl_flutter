@@ -1,67 +1,70 @@
----
 
 # tspl_flutter
 
-A cross-platform Flutter application for connecting to and printing from Bluetooth printers, supporting TSPL (Thermal Printer Command Language) devices. This project is primarily written in Dart, with native integrations in C++, CMake, Ruby, Swift, and C for platform-specific functionalities.
+A test Android app for the **Zenpert 3R20** thermal printer, communicating exclusively using **TSPL commands**.  
+This project is built with Flutter and Dart.
 
 ## Features
 
-- Discover and connect to Bluetooth printers
-- Send print commands using TSPL/ESC/POS
-- Cross-platform support (Android, iOS, and more)
-- Easy-to-use Flutter interface
+- **Test and demo app** for the Zenpert 3R20 mobile printer.
+- Send **raw TSPL commands** to the printer.
+- Designed for testing, demo, and integration purposes.
+- Supports Android devices.
+
+## Requirements
+
+- **Zenpert 3R20** printer (Bluetooth connection)
+- Android device
+- Flutter SDK (latest stable recommended)
 
 ## Getting Started
 
-### Prerequisites
-
-- [Flutter SDK](https://flutter.dev/docs/get-started/install)
-- Compatible Bluetooth printer (TSPL/ESC/POS)
-- Device with Bluetooth capability
-
-### Installation
-
-1. Clone the repository:
+1. **Clone the repository**
    ```bash
    git clone https://github.com/tanongkiat/tspl_flutter.git
    cd tspl_flutter
    ```
-2. Install dependencies:
+
+2. **Install dependencies**
    ```bash
    flutter pub get
    ```
-3. Connect your device and run:
+
+3. **Connect your Zenpert 3R20 printer** to your Android device via Bluetooth.
+
+4. **Run the app**
    ```bash
    flutter run
    ```
 
-### Usage
+## Usage
 
-1. Launch the app on your device.
-2. Scan for available Bluetooth printers.
-3. Select a printer and connect.
-4. Send text or image data to print using TSPL commands.
+- Launch the app on your Android device.
+- Select your Zenpert 3R20 printer from the available Bluetooth devices.
+- Input or select the TSPL command you wish to send.
+- Press "Send" to transmit the command to the printer.
+- The printer will execute the received TSPL command.
 
-## Project Structure
+## Example TSPL Command
 
-- `lib/` — Flutter (Dart) code for UI and logic
-- `android/`, `ios/` — Native code and platform integration
-- `cpp/`, `cmake/` — Native modules for printer communication
-- `test/` — Unit and widget tests
+```tspl
+SIZE 40 mm, 30 mm
+GAP 2 mm, 0 mm
+CLS
+TEXT 20,20,"3",0,1,1,"Hello Zenpert 3R20"
+PRINT 1
+```
 
-## Contributing
+## Notes
 
-Contributions are welcome! Please open issues or submit pull requests.
+- This project is for **testing and demonstration** only.
+- Only **TSPL command mode** is supported (no ESC/POS, CPCL, etc.).
+- Make sure your Android device has Bluetooth permissions enabled.
 
 ## License
 
-This project is licensed under the MIT License. See [LICENSE](LICENSE) for details.
-
-## Resources
-
-- [Flutter Documentation](https://docs.flutter.dev/)
-- [TSPL Command Reference](https://www.tecton.com.tw/download/TSPL_MANUAL.pdf)
+MIT License
 
 ---
 
-Let me know if you want to customize this further (e.g., add screenshots, API usage, or more detailed features)!
+Let me know if you’d like to include more details, such as screenshots, contribution guidelines, or troubleshooting steps!
