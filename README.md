@@ -1,7 +1,3 @@
-Great! I’ll draft a clear and informative README.md for your tspl_flutter project. If you have any project specifics, such as features, setup instructions, or usage examples, just let me know. Otherwise, I’ll create a general template for a Flutter Bluetooth printer app based on common practices.
-
-Here’s a suggested README.md:
-
 ---
 
 # tspl_flutter
