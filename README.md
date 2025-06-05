@@ -6,7 +6,7 @@ This project is built with Flutter and Dart.
 # NOTE.
 DPI = 203
 pixel to millimetre  -> double
-   mm = pixel * 25.4 / dpi
+   mm = pixel * 25.4 / dpi 
 mm to pixel -> integer
    pixel = (mm * dpi / 25.4).round()
     
