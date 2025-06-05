@@ -1,0 +1,46 @@
+I/flutter (30028): Service: 1800
+I/flutter (30028): Characteristic: 2a00
+I/flutter (30028):   Properties: CharacteristicProperties{broadcast: false, read: true, writeWithoutResponse: false, write: false, notify: false, indicate: false, authenticatedSignedWrites: false, extendedProperties: false, notifyEncryptionRequired: false, indicateEncryptionRequired: false}
+I/flutter (30028): Characteristic: 2a01
+I/flutter (30028):   Properties: CharacteristicProperties{broadcast: false, read: true, writeWithoutResponse: false, write: false, notify: false, indicate: false, authenticatedSignedWrites: false, extendedProperties: false, notifyEncryptionRequired: false, indicateEncryptionRequired: false}
+I/flutter (30028): Service: 1801
+I/flutter (30028): Characteristic: 2a05
+I/flutter (30028):   Properties: CharacteristicProperties{broadcast: false, read: true, writeWithoutResponse: false, write: false, notify: false, indicate: false, authenticatedSignedWrites: false, extendedProperties: false, notifyEncryptionRequired: false, indicateEncryptionRequired: false}
+I/flutter (30028): Service: 180a
+I/flutter (30028): Characteristic: 2a29
+I/flutter (30028):   Properties: CharacteristicProperties{broadcast: false, read: true, writeWithoutResponse: false, write: false, notify: false, indicate: false, authenticatedSignedWrites: false, extendedProperties: false, notifyEncryptionRequired: false, indicateEncryptionRequired: false}
+I/flutter (30028): Characteristic: 2a24
+I/flutter (30028):   Properties: CharacteristicProperties{broadcast: false, read: true, writeWithoutResponse: false, write: false, notify: false, indicate: false, authenticatedSignedWrites: false, extendedProperties: false, notifyEncryptionRequired: false, indicateEncryptionRequired: false}
+I/flutter (30028): Characteristic: 2a25
+I/flutter (30028):   Properties: CharacteristicProperties{broadcast: false, read: true, writeWithoutResponse: false, write: false, notify: false, indicate: false, authenticatedSignedWrites: false, extendedProperties: false, notifyEncryptionRequired: false, indicateEncryptionRequired: false}
+I/flutter (30028): Characteristic: 2a27
+I/flutter (30028):   Properties: CharacteristicProperties{broadcast: false, read: true, writeWithoutResponse: false, write: false, notify: false, indicate: false, authenticatedSignedWrites: false, extendedProperties: false, notifyEncryptionRequired: false, indicateEncryptionRequired: false}
+I/flutter (30028): Characteristic: 2a26
+I/flutter (30028):   Properties: CharacteristicProperties{broadcast: false, read: true, writeWithoutResponse: false, write: false, notify: false, indicate: false, authenticatedSignedWrites: false, extendedProperties: false, notifyEncryptionRequired: false, indicateEncryptionRequired: false}
+I/flutter (30028): Characteristic: 2a28
+I/flutter (30028):   Properties: CharacteristicProperties{broadcast: false, read: true, writeWithoutResponse: false, write: false, notify: false, indicate: false, authenticatedSignedWrites: false, extendedProperties: false, notifyEncryptionRequired: false, indicateEncryptionRequired: false}
+I/flutter (30028): Characteristic: 2a23
+I/flutter (30028):   Properties: CharacteristicProperties{broadcast: false, read: true, writeWithoutResponse: false, write: false, notify: false, indicate: false, authenticatedSignedWrites: false, extendedProperties: false, notifyEncryptionRequired: false, indicateEncryptionRequired: false}
+I/flutter (30028): Characteristic: 2a2a
+I/flutter (30028):   Properties: CharacteristicProperties{broadcast: false, read: true, writeWithoutResponse: false, write: false, notify: false, indicate: false, authenticatedSignedWrites: false, extendedProperties: false, notifyEncryptionRequired: false, indicateEncryptionRequired: false}
+I/flutter (30028): Service: 49535343-fe7d-4ae5-8fa9-9fafd205e455
+I/flutter (30028): Characteristic: 49535343-6daa-4d02-abf6-19569aca69fe
+I/flutter (30028):   Properties: CharacteristicProperties{broadcast: false, read: true, writeWithoutResponse: false, write: true, notify: false, indicate: false, authenticatedSignedWrites: false, extendedProperties: false, notifyEncryptionRequired: false, indicateEncryptionRequired: false}
+I/flutter (30028): Characteristic: 49535343-aca3-481c-91ec-d85e28a60318
+I/flutter (30028):   Properties: CharacteristicProperties{broadcast: false, read: false, writeWithoutResponse: false, write: true, notify: true, indicate: false, authenticatedSignedWrites: false, extendedProperties: false, notifyEncryptionRequired: false, indicateEncryptionRequired: false}
+I/flutter (30028): Characteristic: 49535343-1e4d-4bd9-ba61-23c647249616
+I/flutter (30028):   Properties: CharacteristicProperties{broadcast: false, read: false, writeWithoutResponse: false, write: false, notify: true, indicate: false, authenticatedSignedWrites: false, extendedProperties: false, notifyEncryptionRequired: false, indicateEncryptionRequired: false}
+I/flutter (30028): Characteristic: 49535343-8841-43f4-a8d4-ecbe34729bb3
+I/flutter (30028):   Properties: CharacteristicProperties{broadcast: false, read: false, writeWithoutResponse: true, write: true, notify: false, indicate: false, authenticatedSignedWrites: false, extendedProperties: false, notifyEncryptionRequired: false, indicateEncryptionRequired: false}
+I/flutter (30028): Service: fff0
+I/flutter (30028): Characteristic: fff1
+I/flutter (30028):   Properties: CharacteristicProperties{broadcast: false, read: false, writeWithoutResponse: false, write: false, notify: true, indicate: true, authenticatedSignedWrites: false, extendedProperties: false, notifyEncryptionRequired: false, indicateEncryptionRequired: false}
+I/flutter (30028): Characteristic: fff2
+I/flutter (30028):   Properties: CharacteristicProperties{broadcast: false, read: false, writeWithoutResponse: true, write: true, notify: false, indicate: false, authenticatedSignedWrites: false, extendedProperties: false, notifyEncryptionRequired: false, indicateEncryptionRequired: false}
+I/flutter (30028): Service: fee7
+I/flutter (30028): Characteristic: fec7
+I/flutter (30028):   Properties: CharacteristicProperties{broadcast: false, read: false, writeWithoutResponse: false, write: true, notify: false, indicate: false, authenticatedSignedWrites: false, extendedProperties: false, notifyEncryptionRequired: false, indicateEncryptionRequired: false}
+I/flutter (30028): Characteristic: fec8
+I/flutter (30028):   Properties: CharacteristicProperties{broadcast: false, read: false, writeWithoutResponse: false, write: false, notify: false, indicate: true, authenticatedSignedWrites: false, extendedProperties: false, notifyEncryptionRequired: false, indicateEncryptionRequired: false}
+I/flutter (30028): Characteristic: fec9
+I/flutter (30028):   Properties: CharacteristicProperties{broadcast: false, read: true, writeWithoutResponse: false, write: false, notify: false, indicate: false, authenticatedSignedWrites: false, extendedProperties: false, notifyEncryptionRequired: false, indicateEncryptionRequired: false}
