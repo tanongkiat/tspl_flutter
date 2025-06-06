@@ -3,7 +3,13 @@
 
 A test Android app for the **Zenpert 3R20** thermal printer, communicating exclusively using **TSPL commands**.  
 This project is built with Flutter and Dart.
-
+# NOTE.
+- DPI = 203
+- pixel to millimetre  -> double 
+-   mm = pixel * 25.4 / dpi 
+- mm to pixel -> integer
+-   pixel = (mm * dpi / 25.4).round()
+    
 ## Features
 
 - **Test and demo app** for the Zenpert 3R20 mobile printer.
