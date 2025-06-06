@@ -11,6 +11,7 @@ import 'print_barcode_page.dart';
 import 'print_qr_code_bitmap_page.dart';
 import 'print_receipt_page.dart';
 import 'print_receipt_qr_page.dart';
+import 'print_bitmap_page_bw.dart';
 
 class PrintTextPage extends StatefulWidget {
   final BluetoothCharacteristic serialCharacteristic;
@@ -237,6 +238,28 @@ GAP 0 mm, 0 mm
                           context,
                           MaterialPageRoute(
                             builder: (_) => PrintReceiptQrPage(
+                              serialCharacteristic: widget.serialCharacteristic,
+                              device: widget.device,
+                            ),
+                          ),
+                        );
+                      },
+              ),
+            ),
+            const SizedBox(height: 20),
+            // Button to navigate to PrintBitmapPageBW
+            SizedBox(
+              width: double.infinity,
+              child: ElevatedButton.icon(
+                icon: const Icon(Icons.image_aspect_ratio),
+                label: const Text('Print Screen as Bitmap BW'),
+                onPressed: _isPrinting
+                    ? null
+                    : () {
+                        Navigator.push(
+                          context,
+                          MaterialPageRoute(
+                            builder: (_) => PrintBitmapPageBW(
                               serialCharacteristic: widget.serialCharacteristic,
                               device: widget.device,
                             ),
